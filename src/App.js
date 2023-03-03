@@ -6,10 +6,19 @@ import SignUp from './pages/SignUp'
 import SignIn from './pages/Signin'
 import Offers from './pages/Offers'
 import ForgotPassword from './pages/ForgotPassword'
+import Header from './componant/Header'
+
 const App=()=>{
+  
+  
+
+
+
+
   return(
     <div>
     <Router>
+      <Header/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/Profile' element={<Profile/>}/>
